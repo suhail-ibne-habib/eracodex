@@ -37,7 +37,7 @@ export default function Booking() {
         
         <div className={styles.embedWrapper}>
           <Cal
-            calLink="era-coders-kgu7pv/30min"
+            calLink={process.env.NEXT_PUBLIC_CAL_LINK}
             style={{ width: "100%", height: "100%", overflow: "scroll" }}
             config={{ layout: "month_view", theme: "dark" }}
           />
